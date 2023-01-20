@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.adminLogin{
+background-position: center;
+background-size: cover;
+height: 100vh;
+background: radial-gradient(rgba(92, 19, 144, 0.922),whitesmoke);
+}
+
+.form{
+    box-sizing: border-box;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    background-color: to bottom, rgb(75, 0, 130,0.697),white;
+    padding: 60px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form_input input{
+    width: 80%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0px;
+}
+
+.form_input label{
+    font-weight: 100px;
+}
+
+.login-btn{
+font-size: 18px;
+padding: 5px 25px;
+margin-top: 14px;
+margin-bottom: 0;
+border-radius: 15px;
+cursor: pointer;
+background-color: rgb(149, 103, 192);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 1px solid black;
+transition: 0.5sec;
+}
+
+.login-btn:hover{
+    background-color: rgb(104, 34, 132);
+    padding: 5px 28px;
+    color: whitesmoke;
+}
+
+.form h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    color: rgb(46, 4, 77);
+ }

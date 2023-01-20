@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.book-card{
+    display: flex;
+    width: 80%;
+    margin: 30px 100px;
+    padding: 10px 20px;
+    background-color: rgb(137, 109, 158);
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.image{
+    padding: 20px 50px;
+}
+
+.book-card img{
+    height: 200px;
+    width: 200px;
+}
+
+.info{
+    text-align: start;
+}
+
+.book-card:hover{
+    box-shadow: 15px 15px 10px rgb(36, 2, 59);
+}
+
+.info button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 2px solid rgb(15, 14, 14);
+    background-color: rgb(215, 196, 220);
+    margin: 0px 10px;
+    position: relative;
+    top: 40px;
+}

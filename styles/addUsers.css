@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-User{
+    width: 50%;
+    margin: auto;
+    background: linear-gradient(rgb(75, 0, 130,0.697),white);
+    padding: 20px 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.form-User input{
+    width: 80%;
+    height: 40px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-User button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 2px solid black;
+    background-color: rgb(149, 103, 192);
+    transition: 0.5s;
+}
+
+.form-User button:hover{
+    background-color:  rgb(104, 34, 132);
+    padding: 5px 15px;
+    color: whitesmoke;
+}
+
